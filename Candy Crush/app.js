@@ -4,11 +4,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const squares = []
 
   const candyColors = [
-    'red'
-    'yellow'
-    'orange'
-    'purple'
-    'green'
+    'red',
+    'yellow',
+    'orange',
+    'purple',
+    'green',
     'blue'
   ]
 
@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function createBoard() {
     for (let i = 0; i < width*width; i++) {
       const square = document.createElement('div')
+      square.setAttribute('draggable', true)
       let randomColor = Math.floor(Math.random() * candyColors.length)
       square.style.backgroundColor = candyColors[randomColor]
       grid.appendChild(square)
