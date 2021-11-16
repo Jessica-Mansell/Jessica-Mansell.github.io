@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   //drop candies once some have been cleared
   function moveDown() {
-    for (i = 0; i <55;, i++) {
+    for (i = 0; i <55; i++) {
       if (squares[i + width].style.backgroundColor === '') {
         squares[i + width].style.backgroundColor = squares[i].style.backgroundColor
         squares[i].style.backgroundColor = ''
