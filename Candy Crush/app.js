@@ -88,6 +88,15 @@ document.addEventListener('DOMContentLoaded', () => {
     } else squares[squareIdBeingDragged].style.backgroundColor = colorBeingDragged
   }
 
+  //drop candies once some have been cleared
+  function moveDown() {
+    for (i = 0; i <55;, i++) {
+      if (squares[i + width].style.backgroundColor === '') {
+        squares[i + width].style.backgroundColor = squares[i].style.backgroundColor
+        squares[i].style.backgroundColor = ''
+      }
+    }
+  }
 
   // Checking for matches
   // check for row of Four
@@ -166,7 +175,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-  window.setInterval(function(){
+  window.setInterval(function() {
+    moveDown()
     checkRowForFour()
     checkColumnForFour()
     checkRowForThree()
