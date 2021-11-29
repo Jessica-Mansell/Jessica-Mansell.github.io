@@ -6,12 +6,12 @@ document.addEventListener('DOMContentLoaded', () => {
   let score = 0
 
   const candyColors = [
-    'url(imagestouse/christmasparrot.gif)',
-    'url(imagestouse/cryptoparrot.gif)',
-    'url(imagestouse/headsetparrot.gif)',
-    'url(imagestouse/rubyparrot.gif)',
-    'url(imagestouse/scienceparrot.gif)',
-    'url(imagestouse/vikingparrot.gif)'
+    'url(imagestouse/alternative-blue.png)',
+    'url(imagestouse/alternative-green.png)',
+    'url(imagestouse/alternative-orange.png)',
+    'url(imagestouse/alternative-purple.png)',
+    'url(imagestouse/alternative-red.png)',
+    'url(imagestouse/alternative-yellow.png)'
   ]
 
   // Create Board
