@@ -52,3 +52,8 @@ MyVariableName = "John"
 
 #Snake Case
 my_variable_name = "John"
+
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
