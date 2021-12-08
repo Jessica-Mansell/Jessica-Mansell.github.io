@@ -35,3 +35,20 @@ A = "Sally"
 
 print(A)
 print(a)
+
+#all of the below are totally legal variable naming conventions
+myvar = "John"
+my_var = "John"
+_my_var = "John"
+myVar = "John"
+MYVAR = "John"
+myvar2 = "John"
+
+#Camel Case example:
+myVariableName = "John"
+
+#Pascal Case example:
+MyVariableName = "John"
+
+#Snake Case
+my_variable_name = "John"
