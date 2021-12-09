@@ -71,3 +71,7 @@ x, y, z = fruits
 print(x)
 print(y)
 print(z)
+
+#output variables(remember whitespace!)
+x = "awesome"
+print("Python is " + x)
