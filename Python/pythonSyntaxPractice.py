@@ -75,3 +75,9 @@ print(z)
 #output variables(remember whitespace!)
 x = "awesome"
 print("Python is " + x)
+
+#another way
+x = "Python is "
+y = "awesome"
+z = x + y
+print(z)
