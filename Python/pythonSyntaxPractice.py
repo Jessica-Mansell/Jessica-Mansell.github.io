@@ -86,3 +86,11 @@ print(z)
 x = 5
 y = 10
 print(x + y)
+
+#Global Variables - created outside of a function
+x = "awesome"
+
+def myfunc():
+    print("Python is " + x)
+
+myfunc()
