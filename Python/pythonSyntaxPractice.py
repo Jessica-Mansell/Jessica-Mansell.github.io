@@ -134,3 +134,12 @@ z = 1j
 print(type(x))
 print(type(y))
 print(type(z))
+
+#int examples
+x = 1
+y = 35656446457444
+z = -12145555
+
+print(type(x))
+print(type(y))
+print(type(z))
