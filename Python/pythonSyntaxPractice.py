@@ -143,3 +143,12 @@ z = -12145555
 print(type(x))
 print(type(y))
 print(type(z))
+
+#float examples
+x = 1.10
+y = 1.0
+z = -35.59
+
+print(type(x))
+print(type(y))
+print(type(z))
