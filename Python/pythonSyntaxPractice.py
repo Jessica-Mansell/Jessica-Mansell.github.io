@@ -231,3 +231,12 @@ for x in "banana":
 #To get the length of a string, use the len() function.
 a = "Hello, World!"
 print(len(a))
+
+#check string; To check if a certain phrase or character is present in a string, we can use the keyword in.
+txt = "The best things in life are free!"
+print("free" in txt)
+
+#or use it in an if statement
+txt = "The best things in are free!"
+if "free" in txt:
+    print("Yes, 'free' is present.")
