@@ -227,3 +227,7 @@ print(a[1])
 #Since strings are arrays, we can loop through the characters in a string, with a for loop.
 for x in "banana":
     print(x)
+
+#To get the length of a string, use the len() function.
+a = "Hello, World!"
+print(len(a))
