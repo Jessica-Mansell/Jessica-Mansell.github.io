@@ -197,3 +197,25 @@ print(type(c))
 import random
 
 print(random.randrange(1, 10))
+
+#Strings literal
+print("Hello")
+print('Hello')
+
+#Assign string to a variable
+a = "Hello"
+print(a)
+
+#Multiline Strings with three double quotes
+a = """Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua."""
+print(a)
+
+#Or three single quotes
+a = '''Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.'''
+print(a)
