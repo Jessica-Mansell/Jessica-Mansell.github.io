@@ -244,6 +244,7 @@ if "free" in txt:
 #To check if a certain phrase or character is NOT present in a string, we can use the keyword not in.
 txt = "The best things in life are free!"
 print("expensive" not in txt)
+
 #Use it in an if statement
 txt = "The best things in life are free!"
 if "expensive" not in txt:
