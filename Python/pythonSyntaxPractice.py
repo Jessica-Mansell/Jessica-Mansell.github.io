@@ -249,3 +249,11 @@ print("expensive" not in txt)
 txt = "The best things in life are free!"
 if "expensive" not in txt:
     print("No, 'expensive' is NOT present.")
+
+#Slicing strings or You can return a range of characters by using the slice syntax. below example gets characters from 2-5
+b = "Hello World!"
+print(b[2:5])
+
+#Get the characters from the start to position 5
+b = "Hello, World!"
+print(b[:5])
