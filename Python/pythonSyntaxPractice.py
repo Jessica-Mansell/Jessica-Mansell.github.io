@@ -257,3 +257,7 @@ print(b[2:5])
 #Get the characters from the start to position 5
 b = "Hello, World!"
 print(b[:5])
+
+#Slice to the end
+b = "Hello, World!"
+print(b[2:])
