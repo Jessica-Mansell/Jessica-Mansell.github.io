@@ -265,3 +265,8 @@ print(b[2:])
 #Negative Indexing
 b = "Hello, World!"
 print(b[-5:-2])
+
+#modifying Strings with built in python methods
+#Example of turning to upper case
+a = "Hello, World!"
+print(a.upper())
