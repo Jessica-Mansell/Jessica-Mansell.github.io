@@ -270,3 +270,7 @@ print(b[-5:-2])
 #Example of turning to upper case
 a = "Hello, World!"
 print(a.upper())
+
+#turning to lower case
+a = "Hello, World!"
+print(a.lower())
