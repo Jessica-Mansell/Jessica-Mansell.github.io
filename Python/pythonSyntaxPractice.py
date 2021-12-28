@@ -274,3 +274,7 @@ print(a.upper())
 #turning to lower case
 a = "Hello, World!"
 print(a.lower())
+
+#removing whitespace
+a = " Hello, World! "
+print(a.strip())
