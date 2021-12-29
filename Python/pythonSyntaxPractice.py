@@ -278,3 +278,7 @@ print(a.lower())
 #removing whitespace
 a = " Hello, World! "
 print(a.strip())
+
+#creating for loop to return numbers 1-10
+for num in range(11):
+    print(num)
