@@ -280,5 +280,9 @@ a = " Hello, World! "
 print(a.strip())
 
 #creating for loop to return numbers 1-10
-for num in range(11):
+for num in range(1,11):
     print(num)
+
+#creating for loop to return numbers 1-10 in reverse
+for num in range(11, 0, -1):
+  print(num)
