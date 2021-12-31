@@ -288,7 +288,13 @@ a = "Hello, World!"
 print(a.split(","))
 
 #string concatenation
-a = "Hello "
+a = "Hello"
 b = "World"
 c = a + b
+print(c)
+
+#string concatenation with added whitespace
+a = "Hello"
+b = "World"
+c = a + " " + b
 print(c)
