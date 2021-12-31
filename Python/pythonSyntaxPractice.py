@@ -282,3 +282,13 @@ print(a.strip())
 #replace string
 a = "Hello, World!"
 print(a.replace("H", "J"))
+
+#split string
+a = "Hello, World!"
+print(a.split(","))
+
+#string concatenation
+a = "Hello "
+b = "World"
+c = a + b
+print(c)
