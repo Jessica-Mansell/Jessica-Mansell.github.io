@@ -9,5 +9,8 @@ for num in range(11, 0, -1):
 #repeat 1-3 3x
 for num in range(1, 4):
     for num in range(1, 4):
-        for num in range(1, 4):
-            print(num)
+        print(num)
+
+for x in range(1,4):
+    for y in range(1,4):
+        print("Iteration is", x, "and y is", y)

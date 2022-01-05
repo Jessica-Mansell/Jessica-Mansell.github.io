@@ -298,3 +298,8 @@ a = "Hello"
 b = "World"
 c = a + " " + b
 print(c)
+
+#string format
+age = 36
+txt = "My name is John, and I am {}"
+print(txt.format(age))
