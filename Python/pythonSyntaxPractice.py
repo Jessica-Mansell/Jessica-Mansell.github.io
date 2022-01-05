@@ -299,7 +299,13 @@ b = "World"
 c = a + " " + b
 print(c)
 
-#string format
+#string format = The format() method takes the passed arguments, formats them,
+#and places them in the string where the placeholders {} are.
+#Use the format() method to insert numbers into strings:
+
 age = 36
 txt = "My name is John, and I am {}"
 print(txt.format(age))
+
+#The format() method takes unlimited number of arguments,
+#and are placed into the respective placeholders:
