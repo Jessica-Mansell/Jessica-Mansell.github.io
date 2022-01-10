@@ -38,7 +38,7 @@ def selectionSort(input):
     return input
 
 print(selectionSort([6,4,8,4,6,4,1,1,6,5,1,6,5,4]))
-#return min element
+#return min element and max element
 class Solution:
     def __init__(self, input):
         self.input = input
