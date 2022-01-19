@@ -23,3 +23,16 @@ smallest_item = my_solution.find_min_element()
 biggest_item = my_solution.find_max_element()
 print(smallest_item)
 print(biggest_item)
+
+
+#Unit test below
+import unittest
+
+class SolutionTest(unittest.TestCase):
+
+    def test_find_min_element(self):
+        solution = Solution(input=[1, 2, 3, 4, 5])
+        result = solution.find_min_element()
+        self.assertEqual (1, result)
+
+unittest.main()
